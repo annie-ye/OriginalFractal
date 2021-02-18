@@ -1,7 +1,6 @@
 public void settings() {
   size(500, 500);
 }
-
 public void setup() {
   myFractal(250, 250, 180);
 }
