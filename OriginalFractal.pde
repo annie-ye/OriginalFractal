@@ -1,10 +1,8 @@
-public void settings() {
-  size(500, 500);
-}
 public void setup() {
-  myFractal(250, 250, 180);
+  size(500,500);
 }
 public void draw() {
+  myFractal(250, 250, 180);
 }
 public void myFractal(int x, int y, int siz) {
   fill((int)(Math.random()*200), (int)(Math.random()*200), (int)(Math.random()*200));
